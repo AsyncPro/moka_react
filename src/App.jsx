@@ -9,12 +9,12 @@ import "./style/pre.css";
 function App() {
   return (
     <>
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Main_display />} />
-          <Route path="/producto" element={<Product_display />} />
-          <Route path="/tech" element={<Tech_display />} />
+          <Route path="/productos" element={<Product_display />} />
+          <Route path="/tecnologias" element={<Tech_display />} />
         </Routes>
       </BrowserRouter>
 
