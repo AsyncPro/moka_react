@@ -1,7 +1,7 @@
 export function Contact_display() {
   return (
     <>
-      <div>
+      <div className="display-container">
         <section className="contacto" id="contacto">
           <h2>Contáctanos</h2>
           <form>

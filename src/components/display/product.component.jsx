@@ -1,6 +1,6 @@
 export function Product_display() {
   return (
-    <div>
+    <div className="display-container">
       <section className="hero">
         <h1>Mobiliario con Estilo y Funcionalidad</h1>
       </section>

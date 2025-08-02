@@ -1,6 +1,6 @@
 export function Tech_display() {
   return (
-    <div>
+    <div className="display-container">
       <section>
         <h2>Node.js</h2>
         <p>

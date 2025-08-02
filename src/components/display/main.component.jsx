@@ -1,7 +1,7 @@
 export function Main_display() {
   return (
     <>
-      <div>
+      <div className="display-container">
         <section className="nosotros" id="nosotros">
           <h2>Sobre Noka</h2>
           <p>
