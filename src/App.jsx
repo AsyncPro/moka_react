@@ -1,18 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-// Estilos de Cascada 
+// Estilos de Cascada
 import "./style/pre.css";
 import "./style/display.css";
 
-// Componentes primarios 
+// Componentes primarios
 import { Navbar } from "./components/nav/nav.component";
 
-// Copmponentes display 
+// Copmponentes display
 import { Main_display } from "./components/display/main.component";
 import { Product_display } from "./components/display/product.component";
 import { Tech_display } from "./components/display/tech.component";
 import { Contact_display } from "./components/display/contact.component";
-
 
 function App() {
   return (
@@ -26,11 +25,6 @@ function App() {
           <Route path="/contacto" element={<Contact_display />} />
         </Routes>
       </BrowserRouter>
-
-      {/*
-      <CardContainer />
-      
-      */}
     </>
   );
 }
